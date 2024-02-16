@@ -10,7 +10,7 @@ public class Main {
                 Downloading.............
                 """ ;
 
-        int i=0;
+        int i=1;
         for (char letter : text.toCharArray()) {
 
             System.out.print(letter);
@@ -19,7 +19,7 @@ public class Main {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            if(i==text.length()-2){
+            if(i==text.length()-1){
                 System.out.print("Completed 100%.");
             }
             i++;
